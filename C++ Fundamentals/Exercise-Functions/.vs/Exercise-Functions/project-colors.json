@@ -5,7 +5,12 @@
       "ProjectGuid": "6e0957dc-351a-44c6-8454-237609135ddb",
       "DisplayName": "1. Center Point",
       "ColorIndex": 0
+    },
+    "d676878a-cfa1-488f-bbac-2c52ffdff1c3": {
+      "ProjectGuid": "d676878a-cfa1-488f-bbac-2c52ffdff1c3",
+      "DisplayName": "2. Operations",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
