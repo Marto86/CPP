@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1b363b2a-783a-4036-ae44-7e8289d8eedc": {
+      "ProjectGuid": "1b363b2a-783a-4036-ae44-7e8289d8eedc",
+      "DisplayName": "Problem 1 – Order Two Numbers",
+      "ColorIndex": 0
+    },
+    "de0a40b0-5f14-4c53-8fb6-b242e11c7435": {
+      "ProjectGuid": "de0a40b0-5f14-4c53-8fb6-b242e11c7435",
+      "DisplayName": "Product Sign",
+      "ColorIndex": 1
+    },
+    "a6e3ca8e-62c4-4569-9885-7bfd335b59f6": {
+      "ProjectGuid": "a6e3ca8e-62c4-4569-9885-7bfd335b59f6",
+      "DisplayName": "Problem 3 – Quadratic Equation",
+      "ColorIndex": 2
+    },
+    "8689831e-cd4e-4dbd-8df6-8138c06d65ce": {
+      "ProjectGuid": "8689831e-cd4e-4dbd-8df6-8138c06d65ce",
+      "DisplayName": "Problem 4 – 1 to N",
+      "ColorIndex": 3
+    },
+    "c553a2bb-7cb8-4338-b92b-574268b7dcc2": {
+      "ProjectGuid": "c553a2bb-7cb8-4338-b92b-574268b7dcc2",
+      "DisplayName": "Problem 5 – Min and Max",
+      "ColorIndex": 4
+    },
+    "271bf864-09df-48b1-acaf-e8b66038708e": {
+      "ProjectGuid": "271bf864-09df-48b1-acaf-e8b66038708e",
+      "DisplayName": "Problem 6 – Greatest Common Divisor",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
