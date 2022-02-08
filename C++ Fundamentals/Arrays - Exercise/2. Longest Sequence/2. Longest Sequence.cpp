@@ -1,35 +1,37 @@
 #include <iostream>
 #include <array>
-int main()
+
+const int maxSize = 1000;
+
+
+
+std::array<int, maxSize > readInput(int& actualSize)
 {
-    void readInput(int& size, int arr[]);
-    void searchLongestSequence(int arr[], int& size);
-    void printOutput(int& maxSequence, int& element);
+    std::array<int, maxSize > arr{};
 
-    int size = 0;
-    int* arr;
+    std::cin >> actualSize;
+    if (actualSize >= maxSize)
+    {
+        std::cout << "Error !!!" << std::endl;
+    }
 
-    std::cin >> size;
-    std::cin.ignore();
-    arr = new int[size];
-
-    readInput(size, arr);
-
-    searchLongestSequence(arr, size);
-
-    delete[] arr;
-
-    return 0;
-}
-
-void readInput(int& size, int arr[])
-{
-    for (int i = 0; i < size; ++i)
+	for (int i = 0; i < actualSize; ++i)
     {
         std::cin >> arr[i];
     }
+
+    return arr;
 }
 
+
+
+
+
+void findLongestSequence(const std::array< int, maxSize>& arr ,int arrSize)
+{
+    int frequentNumber = 0;
+    int numberRepsCount = 0;    
+}
 void printOutput(int& maxSequence, int& element)
 {
     for (int i = 0; i <= maxSequence; ++i)
@@ -45,34 +47,11 @@ void printOutput(int& maxSequence, int& element)
     }
 }
 
-void searchLongestSequence(int arr[], int& size)
+int main()
 {
-    int countSequence = 0;
-    int element = 0;
-    int maxSequence = 0;
+    int arrSize = 0;
+    const std::array< int, maxSize> arr = readInput(arrSize);
 
-    for (int i = 1; i < size; ++i)
-    {
-        if (arr[i] == arr[i - 1])
-        {
-            countSequence++;
-        }
-        else
-        {
-            if (maxSequence <= countSequence)
-            {
-                maxSequence = countSequence;
-                element = arr[i - 1];
-            }
-            countSequence = 0;
-        }
-    }
-    if (maxSequence <= countSequence)
-    {
-        maxSequence = countSequence;
-        element = arr[size - 1];
-    }
-
-    printOutput(maxSequence, element);
+    return 0;
 }
 

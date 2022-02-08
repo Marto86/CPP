@@ -21,9 +21,9 @@ bool areEqual(const std::array<int, maxSize>& arr1, int length1,
 
 	return true;
 }
-const std::array<int, maxSize> readInput(int& actualSize)
+    std::array<int, maxSize> readInput(int& actualSize)
 {
-	std::array<int, maxSize>arr;
+	std::array<int, maxSize>arr{};
 
 	std::cin >> actualSize;
 	for (int i = 0; i < actualSize; ++i)
