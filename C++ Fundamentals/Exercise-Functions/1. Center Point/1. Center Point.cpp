@@ -32,7 +32,7 @@ int main()
 void getInput(double& cordinate)
 {
     std::cin >> cordinate;
-    std::cin.ignore();
+    
 }
 bool compareDistance(double& x1, double& y1, double& x2, double& y2)
 {

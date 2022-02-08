@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "75ef1f71-e6c4-49fc-a581-f2dc9a0bc668": {
+      "ProjectGuid": "75ef1f71-e6c4-49fc-a581-f2dc9a0bc668",
+      "DisplayName": "1. Compare Arrays",
+      "ColorIndex": 0
+    },
+    "ea5ea249-30c7-4b2f-b00e-f29ba0eca1c3": {
+      "ProjectGuid": "ea5ea249-30c7-4b2f-b00e-f29ba0eca1c3",
+      "DisplayName": "2. Longest Sequence",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
